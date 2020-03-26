@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Gestión</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="Shortcut Icon" type="image/x-icon" href="assets/icons/book.ico" />
+    <script src="js/sweet-alert.min.js"></script>
+    <link rel="stylesheet" href="css/sweet-alert.css">
+    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="navbar-lateral full-reset">
+        <div class="visible-xs font-movile-menu mobile-menu-button"></div>
+        <div class="full-reset container-menu-movile custom-scroll-containers">
+            <div class="logo full-reset all-tittles">
+                <i class="visible-xs zmdi zmdi-close pull-left mobile-menu-button" style="line-height: 55px; cursor: pointer; padding: 0 10px; margin-left: 7px;"></i> 
+                fly search
+            </div>
+            <div class="full-reset" style="background-color:#2B3D51; padding: 10px 0; color:#fff;">
+                <figure>
+                    <img src="assets/img/plane_airsearch.png" alt="Biblioteca" class="img-responsive center-box" style="width:55%;">
+                </figure>
+                <p class="text-center" style="padding-top: 15px;">GESTIÓN DE VUELOS</p>
+            </div>
+            <div class="full-reset nav-lateral-list-menu">
+                <ul class="list-unstyled">
+                    <li><a href="home.html"><i class="zmdi zmdi-home zmdi-hc-fw"></i>&nbsp&nbsp Inicio</a></li>
+			<li>
+                        <div class="dropdown-menu-button"><i class="zmdi zmdi-account-add zmdi-hc-airplane"></i style="color:#white;"> Panel de Registros <i class="zmdi zmdi-chevron-down pull-right zmdi-hc-fw"></i></div>
+                        <ul class="list-unstyled">
+                            <li><a href="ciudades.html"><i class="zmdi zmdi-balance zmdi-city"></i> Ciudades </a></li>
+                            <li><a href="vuelos.html"><i class="zmdi zmdi-balance zmdi-airplane"></i> Vuelos </a></li>
+                            <li><a href="aeropuertos.html"><i class="zmdi zmdi-balance zmdi-flight-land"></i> Aeropuertos </a></li>
+                            <li><a href="aerolineas.html"><i class="zmdi zmdi-bookmark-outline zmdi-8tracks"></i> Aerolineas </a></li>
+                            <li><a href="rutas.html"><i class="zmdi zmdi-bookmark-outline zmdi-8tracks"></i> Rutas </a></li>
+                        </ul>
+			</div>
+
+                    <li>
+                        <div class="dropdown-menu-button"><i class="zmdi zmdi-account-add zmdi-hc-fw"></i style="color:#white;"> Registro de usuarios <i class="zmdi zmdi-chevron-down pull-right zmdi-hc-fw"></i></div>
+                        <ul class="list-unstyled">
+                            <li><a href="admin.html"><i class="zmdi zmdi-face zmdi-hc-fw"></i> Nuevo Usuario</a></li>
+                            <li><a href="teacher.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Baja Usuario</a></li>
+                        </ul>
+			</div>
+                    </li>
+		<ul>
+                    <li><a href="#"><i class="zmdi zmdi-trending-up zmdi-hc-fw"></i>Reportes y estadísticas</a></li>
+                    <li><a href="#"><i class="zmdi zmdi-wrench zmdi-hc-fw"></i>Configuraciones avanzadas</a></li>
+                </ul>
+        </div>
+    </div>
+    <div class="content-page-container full-reset custom-scroll-containers">
+        <nav class="navbar-user-top full-reset">
+            <ul class="list-unstyled full-reset">
+                <figure>
+                   <img src="assets/img/user.png" alt="user-picture" class="img-responsive img-circle center-box">
+                </figure>
+                <li style="color:#fff; cursor:default;">
+                    <span class="all-tittles">Admin Name</span>
+                </li>
+                <li  class="tooltips-general exit-system-button" data-href="index.html" data-placement="bottom" title="Salir del sistema">
+                    <i class="zmdi zmdi-power"></i>
+                </li>
+                <li  class="tooltips-general search-book-button" data-href="searchbook.html" data-placement="bottom" title="Buscar">
+                    <i class="zmdi zmdi-search"></i>
+                </li>
+                <li  class="tooltips-general btn-help" data-placement="bottom" title="Ayuda">
+                    <i class="zmdi zmdi-help-outline zmdi-hc-fw"></i>
+                </li>
+                <li class="mobile-menu-button visible-xs" style="float: left !important;">
+                    <i class="zmdi zmdi-menu"></i>
+                </li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="page-header">
+              <h1 class="all-tittles">Gestión de Vuelos <small>Fly Search</small></h1>
+            </div>
+        </div>
+        <section class="full-reset text-center" style="padding: 40px 0;">
+            <article class="tile">
+                <div class="tile-icon full-reset"><i class="zmdi zmdi-city"></i></div>
+                <div class="tile-name all-tittles"><a href="ciudades.html">ciudades</a></div>
+                <div class="tile-num full-reset">7</div>
+            </article>
+            <article class="tile">
+                <div class="tile-icon full-reset"><i class="zmdi zmdi-airplane"></i></div>
+                <div class="tile-name all-tittles"><a href="vuelos.html">vuelos</a></div>
+                <div class="tile-num full-reset">70</div>
+            </article>
+            <article class="tile">
+                <div class="tile-icon full-reset"><i class="zmdi zmdi-flight-land"></i></div>
+                <div class="tile-name all-tittles"><a href="aeropuertos.html">aeropuertos</a></div>
+                <div class="tile-num full-reset">11</div>
+            </article>
+            <article class="tile">
+                <div class="tile-icon full-reset"><i class="zmdi zmdi-8tracks"></i></div>
+                <div class="tile-name all-tittles" style="width: 90%;"><a href="aerolineas.html">aerolíneas</a></div>
+                <div class="tile-num full-reset">17</div>
+            </article>
+            <article class="tile">
+                <div class="tile-icon full-reset"><i class="zmdi zmdi-truck"></i></div>
+                <div class="tile-name all-tittles"><a href="rutas.html">rutas</a></div>
+                <div class="tile-num full-reset">21</div>
+            </article>
+            <article class="tile">
+                <div class="tile-icon full-reset"><i class="zmdi zmdi-book"></i></div>
+                <div class="tile-name all-tittles">descargar registros</div>
+                <div class="tile-num full-reset">77</div>
+            </article>
+        </section>
+        <div class="modal fade" tabindex="-1" role="dialog" id="ModalHelp">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center all-tittles">Ayuda del sistema</h4>
+                </div>
+                <div class="modal-body">
+                    Si necesita alguna ayuda o tiene alguna cuesti&oacuten sobre el funcionamiento o algún error de la aplicaci&oacuten, no dude en escribir a soporte@flysearch.com
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="zmdi zmdi-thumb-up"></i> &nbsp; De acuerdo</button>
+                </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer full-reset">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6">
+                        <h4 class="all-tittles">Acerca de</h4>
+                        <p>
+                            Aplicación desarrollada con base a Proyecto de Computaci&oacuten II. Desarrollo de una interfaz para la aplicaci&oacuten de Gesti&oacuten de vuelos.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <h4 class="all-tittles">Desarrollador</h4>
+                        <ul class="list-unstyled">
+                            <li><i class="zmdi zmdi-check zmdi-hc-fw"></i>&nbsp; Carlos del Cerro <i class="zmdi zmdi-facebook zmdi-hc-fw footer-social"></i><i class="zmdi zmdi-twitter zmdi-hc-fw footer-social"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright full-reset all-tittles">© Carlos del Cerro 2020</div>
+        </footer>
+    </div>
+</body>
+</html>
